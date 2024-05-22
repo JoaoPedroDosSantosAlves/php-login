@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-if ($_POST['email'] === 'usuario@example.com' && $_POST['password'] === '123456') {
+if ($_POST['email'] === 'joao@etec.com' && $_POST['password'] === '123456') {
     // Criar a sessão
     $_SESSION['username'] = 'usuario'; 
     // Criar o cookie
